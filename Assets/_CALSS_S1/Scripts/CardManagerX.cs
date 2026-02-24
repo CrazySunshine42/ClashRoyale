@@ -19,6 +19,7 @@ namespace UnityRoyale
         public Transform startPos, endPos;//起始位置和结束位置
         private Transform previewCard;//预览卡牌
         public MeshRenderer forbidenAreaRenderer;
+
         private void Awake()
         {
             instance = this;
