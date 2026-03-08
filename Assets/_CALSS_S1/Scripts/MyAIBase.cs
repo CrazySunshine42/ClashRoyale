@@ -1,7 +1,4 @@
 using UnityEngine;
-using UnityRoyale;
-using UnityEngine.AI;
-using System.Collections;
 public enum AIState
 {
     Idle,
