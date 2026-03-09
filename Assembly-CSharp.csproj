@@ -87,6 +87,7 @@
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyPlaceableModel.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\Placeables\ThinkingPlaceable.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\TestAddressable.cs" />
     <Compile Include="Assets\Scripts\Placeables\Unit.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\CardManagerX.cs" />
     <Compile Include="Assets\Scripts\Placeables\Placeable.cs" />

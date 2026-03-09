@@ -183,7 +183,7 @@ MonoBehaviour:
           m_Data: 0
           m_Key: HostingServiceUploadSpeed
     m_Settings: {fileID: 11400000}
-    m_NextInstanceId: 3
+    m_NextInstanceId: 4
     m_RegisteredServiceTypeRefs:
     - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
     m_PingTimeoutInMilliseconds: 5000
