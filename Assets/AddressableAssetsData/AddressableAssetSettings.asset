@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 151328d13c16947b8b2df2d555312652
   m_currentHash:
     serializedVersion: 2
-    Hash: a88b168ba7f77f96c740cf20f8dd923e
+    Hash: d1b49f83f7971bee3822c8cac09ed2d0
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
       - m_Id: 1664b6053a27a4ac5bbc7846a27f09f1
         m_Value: Assets/StreamingAssets/aa/[BuildTarget]
       - m_Id: 18d330823692a436dad1d1a4529a9d5e
-        m_Value: http://113.247.3.122/ServerData/[BuildTarget]
+        m_Value: https://raw.githubusercontent.com/CrazySunshine42/ClashRoyale/refs/heads/master/ServerData/[BuildTarget]
       - m_Id: 8a6a19676e1b64ee9b388011d7c59596
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: dba6ad3240f6c432c9ec347abe95130a
