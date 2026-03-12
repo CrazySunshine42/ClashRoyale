@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityRoyale;
-
 public partial class MyPlaceable
 {
     public Placeable.Faction faction = Placeable.Faction.None;
@@ -108,8 +108,17 @@ namespace UnityRoyale
                 //unity不允许性能分析器的Begin/End数量不匹配，所以报错了 
                 //Profiler.BeginSample("Creat unit by Addressables");
                 string prefabName = faction == Placeable.Faction.Player ? p.associatedPrefab : p.alternatePrefab;
-                Debug.Log("生成小兵");
-                GameObject cardEntity =await Addressables.InstantiateAsync(prefabName, parent, false).Task;
+                GameObject cardEntity = await Addressables.InstantiateAsync(prefabName, parent, false).Task;
+                //AsyncOperationHandle<GameObject> handle = Addressables.LoadAssetAsync<GameObject>(cardEntity);
+                //await handle.Task;
+                //if (handle.Status == AsyncOperationStatus.Succeeded)
+                //{
+                //    Debug.Log($"加载状态{handle.Result.name}");
+                //}
+                //else
+                //{
+                //    Debug.LogError($"加载失败: {handle.OperationException}");
+                //}
                 //Profiler.EndSample();
                 cardEntity.transform.localPosition = offset;
                 cardEntity.transform.position = pos + offset;
@@ -219,16 +228,16 @@ namespace UnityRoyale
         {
             if (target.state == AIState.Die)
                 return;
-            target.state= AIState.Die;
+            target.state = AIState.Die;
             Debug.Log($"{gameObject.name} is dead!!!!");
             target.GetComponent<MyPlaceableView>().data.hitPoints = 0;
             NavMeshAgent nav = target.GetComponent<NavMeshAgent>();
             Animator ani = target.GetComponent<Animator>();
-            if (ani!= null)
+            if (ani != null)
             {
                 ani.SetTrigger("IsDead");
             }
-            if (nav !=null)
+            if (nav != null)
             {
                 nav.isStopped = true;
             }
@@ -243,6 +252,6 @@ namespace UnityRoyale
             }
             Destroy(target.gameObject, aiView.dieDuaration);
         }
-        
+
     }
 }

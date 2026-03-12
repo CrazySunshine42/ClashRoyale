@@ -35,11 +35,10 @@ namespace UnityRoyale
                 previewHolder.transform.position = hit.point;
                 if (isDragging == false)
                 {
-                    Debug.Log("射线命中地面 && 卡牌没有变小兵");
+                    isDragging = true;
                     previewHolder.gameObject.SetActive(true);
                     MyPlaceableMgr.instance.OnCardTransition(data, previewHolder, hit.point, Placeable.Faction.Player);
                     canvasGroup.alpha = 0;
-                    isDragging = true;
                 }
                 else
                 {

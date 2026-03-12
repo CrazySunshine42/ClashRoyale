@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 3901631981214938880}
   - component: {fileID: -4153838254566560684}
   m_Layer: 0
-  m_Name: Warrior Red
+  m_Name: Warrior Red1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
