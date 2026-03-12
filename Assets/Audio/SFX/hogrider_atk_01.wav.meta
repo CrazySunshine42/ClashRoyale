@@ -1,6 +1,23 @@
-{
-  "ver": "2.0.0",
-  "uuid": "887fb96b-3f35-4a60-92d0-a8950b212e7d",
-  "downloadMode": 0,
-  "subMetas": {}
-}
+fileFormatVersion: 2
+guid: 8da6f7afca8890945b226b18b5e36e0e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

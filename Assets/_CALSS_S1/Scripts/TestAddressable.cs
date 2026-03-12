@@ -8,7 +8,7 @@ namespace UnityRoyale
     public class TestBundleCRC : MonoBehaviour
     {
         // 输入你的 AssetBundle 完整 URL
-        public string bundleURL = "https://raw.githubusercontent.com/CrazySunshine42/ClashRoyale/refs/heads/master/ServerData/StandaloneWindows64/myplaceables_assets_all_9278ef498d8d89732b1c0fa56a7ded22.bundle";
+        public string bundleURL = "https://raw.githubusercontent.com/CrazySunshine42/ClashRoyale/refs/heads/master/ServerData/StandaloneWindows64";
 
         IEnumerator Start()
         {
