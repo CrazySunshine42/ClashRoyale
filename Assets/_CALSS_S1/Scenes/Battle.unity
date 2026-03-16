@@ -35915,7 +35915,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1570990368}
   - component: {fileID: 1570990369}
-  - component: {fileID: 1570990370}
   m_Layer: 0
   m_Name: MyPlaceableMgr
   m_TagString: Untagged
@@ -35955,18 +35954,6 @@ MonoBehaviour:
   allUnitAIList: []
   aiHisTower: {fileID: 2119700906}
   aiMineTower: {fileID: 55058001}
---- !u!114 &1570990370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570990367}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b2d11845657f284f8bc8924c9bca90a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1574759374
 PrefabInstance:
   m_ObjectHideFlags: 0

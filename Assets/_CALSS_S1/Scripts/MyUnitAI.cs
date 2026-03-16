@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
 using UnityRoyale;
 
@@ -49,10 +51,10 @@ internal class MyUnitAI:MyAIBase
             this.target = null;
         }
     }
-    public void OnFireProject()
+    public async Task OnFireProject()
     {
         //实例化一个火球
-        GameObject fireGo = Instantiate(projectile, firePos.position, Quaternion.identity,MyProjectileMgr.instance.transform);//放在手部位置，但是不以手部为父节点
+        GameObject fireGo = await Addressables.InstantiateAsync(projectile, firePos.position, Quaternion.identity,MyProjectileMgr.instance.transform).Task;//放在手部位置，但是不以手部为父节点
         //设置投掷物的释放者（用于投掷物命中目标后的伤害结算）
         MyProjectile myProjectile = fireGo.GetComponent<MyProjectile>();
         myProjectile.caster = this;

@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.EventSystems;
 
 namespace UnityRoyale
@@ -54,7 +55,8 @@ namespace UnityRoyale
                     isDragging = false;
                     foreach (Transform item in previewHolder)
                     {
-                        Destroy(item.gameObject);
+                        Addressables.ReleaseInstance(item.gameObject);
+                        //Destroy(item.gameObject);
                     }
                 }
             }
@@ -68,7 +70,8 @@ namespace UnityRoyale
             if (canTransition)
             {
                 OnCardUsed();
-                Destroy(this.gameObject);
+                Addressables.ReleaseInstance(this.gameObject);
+                //Destroy(this.gameObject);
                 //这里的await只是异步等待，没有new一个task对象，所以本方法的返回值类型可以为void
                 await CardManagerX.instance.PreviewToCard(index, 0.5f);
                 await CardManagerX.instance.CreateCard(1f); 

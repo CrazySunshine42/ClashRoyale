@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace UnityRoyale
 {
@@ -30,6 +31,7 @@ namespace UnityRoyale
                 if (proj.target == null)
                 {
                     removeItem.Add(proj);
+                    Addressables.ReleaseInstance(proj.gameObject);
                     Destroy(proj.gameObject);
                     continue;
                 }
@@ -45,8 +47,9 @@ namespace UnityRoyale
                     {
                         MyPlaceableMgr.instance.OnEnterDie(targetAI);
                     }
-                    Destroy(proj.gameObject);
                     removeItem.Add(proj);
+                    Addressables.ReleaseInstance(proj.gameObject);
+                    Destroy(proj.gameObject);
                 }
             }
             //int count = removeItem.Count;

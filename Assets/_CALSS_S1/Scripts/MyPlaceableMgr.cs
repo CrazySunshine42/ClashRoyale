@@ -250,6 +250,7 @@ namespace UnityRoyale
                 rd.material.SetColor("_EdgeColor", color * 8);
                 rd.material.SetFloat("_DissolveFactor", aiView.dieProgress);
             }
+            //Addressables.ReleaseInstance(target.gameObject);
             Destroy(target.gameObject, aiView.dieDuaration);
         }
 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 public enum AIState
 {
     Idle,
@@ -11,7 +12,8 @@ public class MyAIBase : MonoBehaviour
     public AIState state = AIState.Idle;
     public MyAIBase target = null;//攻击目标
     public float lastBlowTime = -1000f;
-    public GameObject projectile;
+    //public GameObject projectile;通过可寻址资源引用实例化
+    public AssetReference projectile;
     public Transform firePos;
     public virtual void OnIdle()
     {

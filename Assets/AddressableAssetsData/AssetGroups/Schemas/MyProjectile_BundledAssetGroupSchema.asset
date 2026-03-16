@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5d17a21594effb4e9591490b009e7aa, type: 3}
-  m_Name: MyPlaceables_BundledAssetGroupSchema
+  m_Name: MyProjectile_BundledAssetGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: ee10cd76d3143d4449667c49b44ab570, type: 2}
+  m_Group: {fileID: 11400000, guid: e4fb1617546e12043a799840a3040807, type: 2}
   m_InternalBundleIdMode: 1
   m_Compression: 1
   m_IncludeAddressInCatalog: 1

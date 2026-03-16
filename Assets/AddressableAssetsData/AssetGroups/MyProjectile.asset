@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MyProjectile
+  m_EditorClassIdentifier: 
+  m_GroupName: MyProjectile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0040052ed97d25b448b280671ec8fb2e
+  m_SerializeEntries:
+  - m_GUID: 16df5ca33880bf7409922364f4bdcc3d
+    m_Address: Assets/_CALSS_S1/Resources_moved/MyProjectiles/Fire Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 208c852a323ae3d44998f5b371b37ce4
+    m_Address: Assets/_CALSS_S1/Resources_moved/MyProjectiles/Fire Blue.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e12f67aa396803b4db1f156b4de6a91f
+    m_Address: Assets/_CALSS_S1/Resources_moved/MyProjectiles/Arrow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 62fd5e501abef4d188f123698eca5c92, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 603d778d181f0d94f84d4c76fa5af169, type: 2}
+    - {fileID: 11400000, guid: 5d82e5c27566c9e41bb118186cace84d, type: 2}
