@@ -24,6 +24,8 @@ namespace UnityRoyale
             //执行SayHello方法
             Type t = ass.GetType("HelloDLL");
             t.GetMethod("SayHello").Invoke(null,null);
+            Addressables.Release<TextAsset>(dll);
+            Addressables.Release<TextAsset>(pdb);
         }
     }
 }
