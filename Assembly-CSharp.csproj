@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\Placeables\Unit.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\CardManagerX.cs" />
     <Compile Include="Assets\Scripts\Placeables\Placeable.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\MyDllLoader.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyBuidingAI.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\PlaceableData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\DeckData.cs" />
@@ -1189,6 +1190,10 @@
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{D8DC845C-A987-7DDB-F2CB-F605FE686DB7}</Project>
       <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="HelloDLL.csproj">
+      <Project>{D1EC6D18-63C0-C3D9-A60E-CA046E5097D1}</Project>
+      <Name>HelloDLL</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{90858D4E-149D-DA03-8BBA-2F15BBEDAAD6}</Project>
