@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 151328d13c16947b8b2df2d555312652
   m_currentHash:
     serializedVersion: 2
-    Hash: f1ec28b97b5dc4a85085da659c3ddad1
+    Hash: f4b8f1d5d4093b80fe176eb588c96765
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -46,6 +46,8 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: e4fb1617546e12043a799840a3040807, type: 2}
   - {fileID: 11400000, guid: 8ff2a612b11a848bea0a334b912e05f8, type: 2}
+  - {fileID: 11400000, guid: 1b0dff05b39aab5458285d48a64e5a15, type: 2}
+  - {fileID: 11400000, guid: 4c5aa2d29ffccca4181c4cecf110b705, type: 2}
   - {fileID: 11400000, guid: 60c790acfdb667546b50a5a2252885be, type: 2}
   - {fileID: 11400000, guid: 86b8a79df148fbf4a8a6b24d7976cf5b, type: 2}
   - {fileID: 11400000, guid: a6ff3afbd1a737c4a9597d60ed1e95fb, type: 2}
@@ -166,7 +168,7 @@ MonoBehaviour:
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Assets/StreamingAssets/aa/StandaloneWindows64;ServerData/StandaloneWindows64
+          m_Data: Assets/StreamingAssets/aa/StandaloneWindows64;ServerData/StandaloneWindows64;8b57e275159e78d4398e43b4ad4b1373
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

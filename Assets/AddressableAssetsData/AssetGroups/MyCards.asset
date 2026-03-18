@@ -16,37 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 2709b214ea2abed49ac124e98e7bb67e
-  m_SerializeEntries:
-  - m_GUID: 120f3ede605274b48b39210215b41d64
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyCards/CardArchersS1.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 264995ec0a7ac40449c36ff63c057c59
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyCards/CardPos.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 27797d1b84deecf4292df89be997fb76
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyCards/CardBG.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2cbda63b1e8b05e48a95fca31fa04fbf
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyCards/CardMageS1.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7dd311bf16c30bd44828a1210632a221
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyCards/Card.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b2c8d0adb76b97c4fbd32ed6f7e0bd65
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyCards/CardVikingS1.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 62fd5e501abef4d188f123698eca5c92, type: 2}
   m_SchemaSet:
