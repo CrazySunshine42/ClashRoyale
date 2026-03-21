@@ -758,6 +758,11 @@ PrefabInstance:
       propertyPath: projectileSpawnPoint
       value: 
       objectReference: {fileID: 8584991783229962960}
+    - target: {fileID: 5035176704641411430, guid: ddbc89a2e5731354497399c2803d9354,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f82d2f8af70f6540b6de3a1910123ac, type: 3}
     - target: {fileID: 5745771561536038601, guid: ddbc89a2e5731354497399c2803d9354,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
