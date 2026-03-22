@@ -135,8 +135,8 @@
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Blocking.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\CombineLatest.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableAnimatorTrigger.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\RepeatSafe.cs" />
     <Compile Include="Assets\Plugins\kbengine_unity3d_plugins\Profile.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\RepeatSafe.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\ContinueWith.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Subjects\BehaviorSubject.cs" />
@@ -268,9 +268,9 @@
     <Compile Include="Assets\Plugins\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\OperatorObserverBase.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Observable.Awaiter.cs" />
+    <Compile Include="Assets\Plugins\kbengine_unity3d_plugins\deps\KCP.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs" />
     <Compile Include="Assets\Plugins\kbengine_unity3d_plugins\MessageReaderTCP.cs" />
-    <Compile Include="Assets\Plugins\kbengine_unity3d_plugins\deps\KCP.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Disposables\CompositeDisposable.cs" />
     <Compile Include="Assets\Plugins\RayUI\UIPage.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
@@ -286,8 +286,8 @@
     <Compile Include="Assets\Plugins\UniRx\Scripts\InternalUtil\MicroCoroutine.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Take.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\Amb.cs" />
-    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SubscribeOn.cs" />
     <Compile Include="Assets\Plugins\Common\Utils.cs" />
+    <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\SubscribeOn.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableBeginDragTrigger.cs" />
     <Compile Include="Assets\Plugins\UniRx\Scripts\Operators\AsUnitObservable.cs" />
     <Compile Include="Assets\Plugins\RayUI\UIBind.cs" />

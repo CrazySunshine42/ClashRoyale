@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MyUI
+  m_EditorClassIdentifier: 
+  m_GroupName: MyUI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 32ca9cbf0df20b142949deea4e91aa11
+  m_SerializeEntries:
+  - m_GUID: 2326bb7f4a6cd9e48b96711e45286788
+    m_Address: Assets/_CALSS_S1/Resources_moved/MyUI/LogPage.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 62fd5e501abef4d188f123698eca5c92, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b5dea6c3d7249a148aeef37de049ad0c, type: 2}
+    - {fileID: 11400000, guid: 43cc8e3c371d965458013af2cd2fbb6a, type: 2}
