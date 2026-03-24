@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\CardData.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyAIBase.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyPlaceableModel.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LogoPage.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\Placeables\ThinkingPlaceable.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\TestAddressable.cs" />
@@ -99,8 +100,10 @@
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\_Tutorials\Addressables\LoadTest.cs" />
     <Compile Include="Assets\Scripts\Placeables\Obstacle.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\MyStart.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyPlaceableMgr.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LogoView.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\Managers\CardManager.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />

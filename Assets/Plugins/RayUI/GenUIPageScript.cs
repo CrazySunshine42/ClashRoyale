@@ -14,7 +14,7 @@ using System.IO;
 /// </summary>
 public static class GenUIPageScript
 {
-	public static string SCRIPT_GEN_PATH = "Assets/_VIP/Scripts/UIPages";
+	public static string SCRIPT_GEN_PATH = "Assets/_CALSS_S1/Scripts/UIPages";
 	public static string SCRIPT_TEMPLATE_PATH = "Assets/Plugins/RayUI/Template";
 	//public static string UI_ROOT_PATH = "UI"; // NB: Addressable不需要根路径，把UI资源做一下名称简化保持【资源名==根对象名】即可
 

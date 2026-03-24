@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 32ca9cbf0df20b142949deea4e91aa11
   m_SerializeEntries:
-  - m_GUID: 2326bb7f4a6cd9e48b96711e45286788
-    m_Address: Assets/_CALSS_S1/Resources_moved/MyUI/LogPage.prefab
+  - m_GUID: 3714bbb15507aee44b9ef017a41a9d2c
+    m_Address: LogPage
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -18,32 +18,32 @@ MonoBehaviour:
   m_GUID: c7010388c4cede24fa177b858ac4ae83
   m_SerializeEntries:
   - m_GUID: 003e9c4fb670d3743986e97f24f953c7
-    m_Address: MyPlaceables/Warrior Blue
+    m_Address: Warrior Blue
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 098bd551ee3225943a35b9719d8ed628
-    m_Address: MyPlaceables/Archer Red
+    m_Address: Archer Red
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: af2a72c2380f6ee438046c52649dff0c
-    m_Address: MyPlaceables/Mage Red
+    m_Address: Mage Red
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cc5d5fff9e59e56478ce0a1d95aeb349
-    m_Address: MyPlaceables/Archer Blue
+    m_Address: Archer Blue
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f121a819af0f1be4cbcdcb36f51b4646
-    m_Address: MyPlaceables/Mage Blue
+    m_Address: Mage Blue
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f4d89977c1fe2ba45a95bf7cb09f562d
-    m_Address: MyPlaceables/Warrior Red
+    m_Address: Warrior Red
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
