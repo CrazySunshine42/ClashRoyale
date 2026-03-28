@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3021070835180254971}
   - component: {fileID: 2525014088434107228}
   m_Layer: 5
-  m_Name: InputField (Legacy)
+  m_Name: AccInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 3944694170402869494}
   - component: {fileID: 3835399787110221761}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 1075441959047912104}
   - component: {fileID: 971702510256426242}
   m_Layer: 5
-  m_Name: InputField (Legacy)
+  m_Name: PwInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,8 +461,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7881252398621860588}
   - {fileID: 6483828836282617545}
+  - {fileID: 7881252398621860588}
   m_Father: {fileID: 4940097160522789480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 4619025864547216030}
   - component: {fileID: 7046842878051652739}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 3910120074708110440}
   - component: {fileID: 5673221142578744101}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 6111233978602246309}
   - component: {fileID: 8990724454447821944}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1199,7 +1199,7 @@ GameObject:
   - component: {fileID: 4739833556184889534}
   - component: {fileID: 8030027806842440209}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

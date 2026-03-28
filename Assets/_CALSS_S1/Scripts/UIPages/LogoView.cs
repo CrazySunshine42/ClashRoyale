@@ -4,8 +4,8 @@ using UnityEngine;
 
 public partial class LogoPage
 {
-	private float showSecond = 10f;
-	public LogoPage() : base(UIType.Normal, UIMode.DoNothing, UICollider.None)
+	private float showSecond = 4f;
+	public LogoPage() : base(UIType.Normal, UIMode.HideOther, UICollider.None)
 	{
 		Debug.LogWarning("TODO: 请修改LogoPage页面类型等参数，或注释此行");
 	}
@@ -13,7 +13,10 @@ public partial class LogoPage
 	public void OnStart()
 	{
 		//KBEngine.Event.registerOut("MyEventName", this, "MyEventHandler");
-		slider.DOValue(1, showSecond);
+		slider.DOValue(1, showSecond).OnComplete(() =>
+		{
+			UIPage.ShowPageAsync<MainPage>();
+		});
 	}
 
 	//public void MyEventHandler()

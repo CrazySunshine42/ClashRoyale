@@ -61,11 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Timeline\CardMarker.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\TopFixView.cs" />
     <Compile Include="Assets\Scripts\CPUOpponent.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LoginPage.cs" />
     <Compile Include="Assets\Scripts\Managers\CinematicsManager.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Scripts\UI\Card.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LoginView.cs" />
     <Compile Include="Assets\Scripts\Timeline\CardPlayerBridge.cs" />
     <Compile Include="Assets\91make\UI\Scripts\卡牌管理器.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
@@ -87,6 +90,7 @@
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyPlaceableModel.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LogoPage.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\TopFixPage.cs" />
     <Compile Include="Assets\Scripts\Placeables\ThinkingPlaceable.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\TestAddressable.cs" />
     <Compile Include="Assets\Scripts\Placeables\Unit.cs" />
@@ -99,16 +103,22 @@
     <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\_Tutorials\Addressables\LoadTest.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\GameOverPage.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\BottomFixView.cs" />
     <Compile Include="Assets\Scripts\Placeables\Obstacle.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyStart.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyPlaceableMgr.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LogoView.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\MainView.cs" />
     <Compile Include="Assets\Scripts\Managers\CardManager.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\MainPage.cs" />
     <Compile Include="Assets\Scripts\AAUsageExample.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyProjectile.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\BottomFixPage.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\GameOverView.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyUnitAI.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyCardModelS1.cs" />
   </ItemGroup>
