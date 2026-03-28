@@ -90,7 +90,7 @@ public static class GenUIPageScript
 			_Gen(c, cPath, list);
 		}
 	}
-
+#if UNITY_EDITOR
 	[MenuItem("GameObject/RayGame/生成UIPage脚本", priority = 0)]
 	public static void Gen()
 	{
@@ -137,4 +137,5 @@ public static class GenUIPageScript
 
 		AssetDatabase.Refresh();
 	}
+#endif
 }
