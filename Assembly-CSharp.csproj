@@ -117,8 +117,8 @@
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\MainPage.cs" />
     <Compile Include="Assets\Scripts\AAUsageExample.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyProjectile.cs" />
-    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\BottomFixPage.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\GameOverView.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\BottomFixPage.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyUnitAI.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyCardModelS1.cs" />
   </ItemGroup>
