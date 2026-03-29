@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public partial class MainPage
 {
@@ -11,11 +12,14 @@ public partial class MainPage
 	public void OnStart()
 	{
 		//KBEngine.Event.registerOut("MyEventName", this, "MyEventHandler");
+		UIPage.ShowPageAsync<TopFixPage>();
+		UIPage.ShowPageAsync<BottomFixPage>();
 		midBottom.onClick.AddListener(OnMidBottom);
 	}
 	public void OnMidBottom()
 	{
-		Debug.Log("点击进入战斗界面");
+		UIPage.CloseAllPages();
+		Addressables.LoadSceneAsync("Battle");
 	}
 	//public void MyEventHandler()
 	//{

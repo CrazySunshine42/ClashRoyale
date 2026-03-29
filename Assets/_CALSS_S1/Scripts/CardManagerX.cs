@@ -9,13 +9,14 @@ namespace UnityRoyale
     {
         public static CardManagerX instance;
 
-
-
+        #region Deckpage
+        //DeckPage的属性，这部分字段需要在DeckPage加载完后动态赋值
         //public Transform[] cards;//活动牌
         //public GameObject[] cardPrefabs;//卡牌预制体
         public GameObject[] cardPos;
         public Transform canvas;
         public Transform startPos, endPos;//起始位置和结束位置
+        #endregion
         private Transform previewCard;//预览卡牌
         public MeshRenderer forbidenAreaRenderer;
 
@@ -36,17 +37,22 @@ namespace UnityRoyale
             //StartCoroutine(PreviewToCard(2, 3f));
 
             //StartCoroutine(CreateCard(3.5f));
+            //加载出牌区UI，创建卡牌必须在出牌区创建完毕再执行
+            //由于await是异步等待，被放在showpageAsync的lambda表达式写的回调函数里所以要给该lambda表达式加上async关键字
+            UIPage.ShowPageAsync<DeckPage>(async() =>
+            {
+                await CreateCard(0.5f);
+                await PreviewToCard(0, 0.5f);
 
-            await CreateCard(0.5f);
-            await PreviewToCard(0, 0.5f);
+                await CreateCard(0.5f);
+                await (PreviewToCard(1, 0.5f));
 
-            await CreateCard(0.5f);
-            await(PreviewToCard(1, 0.5f));
+                await CreateCard(0.5f);
+                await PreviewToCard(2, 0.5f);
 
-            await CreateCard(0.5f);
-            await PreviewToCard(2, 0.5f);
-
-            await CreateCard(0.5f);
+                await CreateCard(0.5f);
+            });
+            
         }
 
         // Update is called once per frame

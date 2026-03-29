@@ -224,15 +224,17 @@ namespace UnityRoyale
                 enemy.Remove(item);
             }
         }
-        public void OnEnterDie(MyAIBase target)
+        public async Task OnEnterDie(MyAIBase target)
         {
             if (target.state == AIState.Die)
                 return;
             target.state = AIState.Die;
             Debug.Log($"{gameObject.name} is dead!!!!");
+            
             target.GetComponent<MyPlaceableView>().data.hitPoints = 0;
             NavMeshAgent nav = target.GetComponent<NavMeshAgent>();
             Animator ani = target.GetComponent<Animator>();
+            
             if (ani != null)
             {
                 ani.SetTrigger("IsDead");
@@ -240,6 +242,15 @@ namespace UnityRoyale
             if (nav != null)
             {
                 nav.isStopped = true;
+            }
+            //当塔死亡时进入游戏结束UI界面
+            if (target.transform == aiHisTower.transform || target.transform == aiMineTower.transform)
+            {
+                //由于程序中可能有多处要处理游戏结束事件，所以不能直接执行死亡处理，而是要发消息
+                //让每个订阅该事件的模块都有机会响应处理该事件
+                var faction = target.GetComponent<MyPlaceableView>().data.faction;
+                KBEngine.Event.fireOut("OnGameOver", faction);
+                UIPage.ShowPageAsync<GameOverPage>(faction);
             }
             MyPlaceableView aiView = target.GetComponent<MyPlaceableView>();
             Color color = aiView.data.faction == Placeable.Faction.Player ? Color.red : Color.blue;
@@ -250,8 +261,9 @@ namespace UnityRoyale
                 rd.material.SetColor("_EdgeColor", color * 8);
                 rd.material.SetFloat("_DissolveFactor", aiView.dieProgress);
             }
-            //Addressables.ReleaseInstance(target.gameObject);
-            Destroy(target.gameObject, aiView.dieDuaration);
+            await new WaitForSeconds(aiView.dieDuaration);
+            Addressables.ReleaseInstance(target.gameObject);
+            //Destroy(target.gameObject, aiView.dieDuaration);
         }
 
     }

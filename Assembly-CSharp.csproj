@@ -111,14 +111,16 @@
     <Compile Include="Assets\_CALSS_S1\Scripts\MyPlaceableMgr.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LogoView.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\DeckView.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\MainView.cs" />
     <Compile Include="Assets\Scripts\Managers\CardManager.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\DeckPage.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\MainPage.cs" />
     <Compile Include="Assets\Scripts\AAUsageExample.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyProjectile.cs" />
-    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\GameOverView.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\BottomFixPage.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\GameOverView.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyUnitAI.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyCardModelS1.cs" />
   </ItemGroup>
