@@ -1,6 +1,7 @@
 ﻿using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public partial class LogoPage
 {
@@ -15,7 +16,7 @@ public partial class LogoPage
 		//KBEngine.Event.registerOut("MyEventName", this, "MyEventHandler");
 		slider.DOValue(1, showSecond).OnComplete(() =>
 		{
-			UIPage.ShowPageAsync<MainPage>();
+			Addressables.LoadSceneAsync("Main");
 		});
 	}
 

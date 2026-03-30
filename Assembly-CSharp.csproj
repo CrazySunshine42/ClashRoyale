@@ -86,6 +86,7 @@
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyCardModel.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyProjectileMgr.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\CardData.cs" />
+    <Compile Include="Assets\_CALSS_S1\Scripts\MyMain.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\MyAIBase.cs" />
     <Compile Include="Assets\91make\DataGen\ConfigScript\MyPlaceableModel.cs" />
     <Compile Include="Assets\_CALSS_S1\Scripts\UIPages\LogoPage.cs" />

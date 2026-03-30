@@ -6,6 +6,7 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityRoyale;
+using static UnityRoyale.Placeable;
 public partial class MyPlaceable
 {
     public Placeable.Faction faction = Placeable.Faction.None;
@@ -248,7 +249,7 @@ namespace UnityRoyale
             {
                 //由于程序中可能有多处要处理游戏结束事件，所以不能直接执行死亡处理，而是要发消息
                 //让每个订阅该事件的模块都有机会响应处理该事件
-                var faction = target.GetComponent<MyPlaceableView>().data.faction;
+                var faction = target.GetComponent<MyPlaceableView>().data.faction == Faction.Player?Faction.Opponent:Faction.Player;
                 KBEngine.Event.fireOut("OnGameOver", faction);
                 UIPage.ShowPageAsync<GameOverPage>(faction);
             }
@@ -262,6 +263,8 @@ namespace UnityRoyale
                 rd.material.SetFloat("_DissolveFactor", aiView.dieProgress);
             }
             await new WaitForSeconds(aiView.dieDuaration);
+            if (target == null)
+                return;
             Addressables.ReleaseInstance(target.gameObject);
             //Destroy(target.gameObject, aiView.dieDuaration);
         }

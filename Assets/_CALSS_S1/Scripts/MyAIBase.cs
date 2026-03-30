@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using DG.Tweening;
 public enum AIState
 {
     Idle,
@@ -22,11 +23,12 @@ public class MyAIBase : MonoBehaviour
     public virtual void OnSeek()
     {
         state = AIState.Seek;
-        this.transform.LookAt(target.transform);
+        this.transform.DOLookAt(target.transform.position,0.5f);
     }
     public virtual void OnAttack()
     {
         state = AIState.Attack;
+        this.transform.DOLookAt(target.transform.position, 0.5f);
     }
     public virtual void DealBlow()
     {

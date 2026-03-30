@@ -12,15 +12,24 @@ public partial class MainPage
 	public void OnStart()
 	{
 		//KBEngine.Event.registerOut("MyEventName", this, "MyEventHandler");
-		UIPage.ShowPageAsync<TopFixPage>();
-		UIPage.ShowPageAsync<BottomFixPage>();
+		
 		midBottom.onClick.AddListener(OnMidBottom);
 	}
 	public void OnMidBottom()
 	{
-		UIPage.CloseAllPages();
-		Addressables.LoadSceneAsync("Battle");
+        Addressables.LoadSceneAsync("Battle").Completed += MainPage_Completed; ;
 	}
+
+    private void MainPage_Completed(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> obj)
+    {
+		UIPage.CloseAllPages();
+    }
+
+    protected override void OnActive()
+    {
+        UIPage.ShowPageAsync<TopFixPage>();
+        UIPage.ShowPageAsync<BottomFixPage>();
+    }
 	//public void MyEventHandler()
 	//{
 	//}
